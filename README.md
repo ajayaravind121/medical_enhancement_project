@@ -1,8 +1,33 @@
 # FAFF — Adaptive Hybrid Enhancement for Medical Images
 
-**Frequency-Aware Adaptive Filter Fusion with Iterative Quality Optimization**
-**CS-712 Image Processing | University of Wisconsin-Milwaukee | Spring 2026**
-**Author:** Ajay Aravind Prakash | **Professor:** Dr. Zeyun Yu
+  Frequency-Aware Adaptive Filter Fusion with Iterative Quality Optimization  
+  CS-712 Image Processing | University of Wisconsin-Milwaukee | Spring 2026  
+  Author:   Ajay Aravind Prakash |   Professor:   Dr. Zeyun Yu
+
+---
+
+## ⚡ Quick Start
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+Open   http://localhost:8501   in your browser.
+
+---
+
+## 🌐 Live Demo
+
+  Try it online (no installation needed):  
+https://faff-adaptive-image-enhancement.streamlit.app
+
+---
+
+## 📸 App Screenshots
+
+>![alt text](app_img/image.png)
+![alt text](app_img/image-1.png)
+![alt text](app_img/image-2.png)
 
 ---
 
@@ -49,35 +74,16 @@ Show: enhanced image + weight chart + SSIM heatmap + histogram
 
 ---
 
-## Installation
-
-### Step 1 — Install Python dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 2 — Run the app
-```bash
-streamlit run app.py
-```
-
-### Step 3 — Open in browser
-```
-http://localhost:8501
-```
-
----
-
 ## Using the App
 
 1. Upload any noisy medical image (X-ray, MRI, Ultrasound) — PNG, JPG, TIFF supported
-2. Adjust **Patch Size** in sidebar if needed (16 recommended)
-3. Click **Enhance** and wait for processing
+2. Adjust   Patch Size   in sidebar if needed (16 recommended)
+3. Click   Enhance   and wait for processing
 4. View results:
-   - **Optimization Results** — filter weights bar chart + SSIM improvement heatmap
-   - **Image Comparison** — Noisy Input vs FAFF Enhanced side by side
-   - **Baseline Comparisons** — 4 methods from course lectures
-   - **Histogram Comparison** — pixel distribution before and after
+   -   Optimization Results   — filter weights bar chart + SSIM improvement heatmap
+   -   Image Comparison   — Noisy Input vs FAFF Enhanced side by side
+   -   Baseline Comparisons   — 4 methods from course lectures
+   -   Histogram Comparison   — pixel distribution before and after
 5. Download the enhanced image
 
 ---
@@ -113,10 +119,10 @@ Place your medical image as `demo_noisy_xray.png` in the project folder to use i
 
 ## Key Acronyms
 
-- **FAFF** = Frequency-Aware Adaptive Filter Fusion
-- **FFT** = Fast Fourier Transform (Lecture 12)
-- **SSIM** = Structural Similarity Index Measure
-- **DFT** = Discrete Fourier Transform
+-   FAFF   = Frequency-Aware Adaptive Filter Fusion
+-   FFT   = Fast Fourier Transform (Lecture 12)
+-   SSIM   = Structural Similarity Index Measure
+-   DFT   = Discrete Fourier Transform
 
 ---
 
